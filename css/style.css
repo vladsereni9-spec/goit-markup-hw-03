@@ -43,11 +43,14 @@ a {
 /* logo  */
 /* header  */
 .page-header {
-  border-bottom: 1px solid var(--cornflower);
-
+  border-bottom: 1px solid var(#e7e9fc);
+padding: 24px 0;
 }
 .header-logo .logo-part {
   color: #2e2f42;
+}
+.header-logo{
+  padding: 24px 0 24px;
 }
 .header-nav {
   display: flex;
