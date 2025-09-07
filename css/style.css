@@ -14,6 +14,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
+h1, h2, h3, h4, h5, h6, p {
+margin: 0;
+}
 .container {
   max-width: 1158px;
   margin: 0 auto;
@@ -111,6 +114,7 @@ a {
 }
 
 /* ================= VISUALLY HIDDEN ================= */
+/* Для приховання заголовка використовується паттерн .visually-hidden */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -176,6 +180,7 @@ a {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   text-align: center;
 }
+/* Для тегу img задан стиль display: block для перетворення картинки в блочний елемент */
 .team-card img {
   width: 100%;
   height: auto;
@@ -201,7 +206,7 @@ a {
 .section-apps-title {
   font-size: 36px;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 72px;
   color: #2e2f42;
 }
 .app-list {
@@ -226,13 +231,16 @@ a {
 .app-title {
   font-size: 20px;
   font-weight: 600;
-  margin: 16px 16px 8px;
+  margin: 0 0 8px;
   color: #2e2f42;
 }
 .app-description {
   font-size: 16px;
   color: #434455;
   margin: 0 16px 16px;
+}
+.app-card-info {
+  padding: 32px 16px; 
 }
 
 /* ================= FOOTER ================= */
