@@ -215,6 +215,9 @@ p {
   border: 1px solid #e7e9fc;
 }
 
+.team-container {
+  border: 1px solid #e7e9fc;
+}
 .section-apps-title {
   font-size: 36px;
   font-weight: 700;
