@@ -127,8 +127,10 @@ p {
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -137,6 +139,7 @@ p {
 .features-section {
   padding: 120px 0;
   background-color: #ffffff;
+  border: 1px solid #e7e9fc;
 }
 .features-list {
   display: flex;
@@ -209,6 +212,7 @@ p {
   padding: 120px 0;
   background-color: #ffffff;
   text-align: center;
+  border: 1px solid #e7e9fc;
 }
 
 .section-apps-title {
